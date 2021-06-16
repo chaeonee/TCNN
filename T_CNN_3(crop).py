@@ -3,12 +3,6 @@
 Created on Thu Mar 15 10:52:33 2018
 
 @author: onee
-
-http://3months.tistory.com/73
-http://pythonkim.tistory.com/56
-http://pythonkim.tistory.com/26(나중에보기)
-http://dsmoon.tistory.com/entry/TensorFlow-101-part2
-http://hugrypiggykim.com/2016/08/29/tensorflow-%EA%B8%B0%EB%B3%B8%EB%AC%B8%EB%B2%95-2/
 """
 
 import numpy as np
@@ -90,8 +84,8 @@ def main(unused_args):
     train_zip = []
     
     # Load Training Data
-    photo_data_dir = 'C:/Users/SM-PC/Desktop/data/photo/'
-    painting_data_dir = 'C:/Users/SM-PC/Desktop/data/painting/'
+    photo_data_dir = './data/photo/'
+    painting_data_dir = './data/painting/'
     
     photo_file_list = os.listdir(photo_data_dir)
     painting_file_list = os.listdir(painting_data_dir)        
@@ -139,8 +133,8 @@ def main(unused_args):
     test_zip = []
     
     #Load Test Data
-    photo_data_dir2 = 'C:/Users/SM-PC/Desktop/data/photo2/'
-    painting_data_dir2 = 'C:/Users/SM-PC/Desktop/data/painting2/'
+    photo_data_dir2 = './data/photo_test/'
+    painting_data_dir2 = './data/painting_test/'
     
     photo_file_list2 = os.listdir(photo_data_dir2)
     painting_file_list2 = os.listdir(painting_data_dir2)        
