@@ -2,7 +2,7 @@
 """
 Created on Thu Mar 15 10:52:33 2018
 
-@author: SM-PC
+@author: onee
 
 http://3months.tistory.com/73
 http://pythonkim.tistory.com/56
